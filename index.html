@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="Entorno">
+
+        <div id="selector">
+            <div>
+                <label>Tamaño:</label>
+                <input type="number" id="tableroTamaño" placeholder="4" min="1" value="4"> <br>
+                <label>Numero inicial:</label>
+                <input type="number" id="initialNum" placeholder="2" value="2">
+            </div>
+            <button class="Controles" id="submit">Start</button>
+        </div>
+
+        <div id="ScoreBoard">Score = 0</div>
+
+        <div id="ControlesR">
+            <button class="Controles" id="BotonAuto">Auto Play</button>
+            <button class="Controles" id="BotonStop">STOP</button>       
+            <button class="Controles" id="BotonRoll">Auto Roll</button>
+        </div>
+
+        <canvas id="myCanvas" width="400px" height="400px"></canvas>
+        
+    
+        <div id="Pad">
+            <button class="Controles" id="BotonUp">UP</button>
+            <br>
+            <button class="Controles" id="BotonLeft">LEFT</button>
+            <button class="Controles" id="BotonDown">DOWN</button>
+            <button class="Controles" id="BotonRight">RIGHT</button>           
+        </div>
+        <button class="Controles" id="BotonReset">RESET</button>
+    
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

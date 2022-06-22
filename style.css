@@ -1,0 +1,80 @@
+#Entorno{
+    width: 500px;
+    
+    border: 1px solid;
+    background-color: darkcyan;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myCanvas{
+
+    border: 1px solid;
+    background-color: lightblue;
+    
+
+}
+#ScoreBoard{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(0, 109, 109);
+    color: azure;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Pad{
+    background-color: #222222;
+    width: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.Controles{
+    background-color: #444444;
+    margin: 5px;
+    width: 80px;
+    height: 50px;
+}
+
+body{
+    background-color: #222222;
+}
+
+#BotonStop{
+    visibility: hidden;
+}
+#ControlesR{
+    background-color: #222222;
+    width: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+#selector{
+    background-color: rgb(0, 109, 109);
+    width: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+#selector div{
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#submit{
+    height: 35px;
+
+}
